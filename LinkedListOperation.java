@@ -24,6 +24,11 @@ public class LinkedListOperation {
         list.insertNthPos(56, 3);
         list.printList();
 
+        System.out.println("\nDELETE");
+        list.pop();
+        list.pop();
+        list.pop();
+        list.printList();
 
     }
 }
