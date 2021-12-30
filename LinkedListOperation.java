@@ -30,5 +30,10 @@ public class LinkedListOperation {
         list.pop();
         list.printList();
 
+        System.out.println("\nDELETE LAST");
+        list.popLast();
+        list.popLast();
+        list.popLast();
+        list.printList();
     }
 }
