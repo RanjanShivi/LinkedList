@@ -12,5 +12,12 @@ public class LinkedListOperation {
         list.add(56);
         list.printList();
 
+        System.out.println("APPEND");
+        list.append(70);
+        list.append(30);
+        list.append(56);
+        list.printList();
+
+
     }
 }
